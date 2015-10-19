@@ -28,10 +28,10 @@
             else {
                 print "you must be 16 to buy specs";
             }*/
-    $provisionedActivities = array("specs", "drugs", "rock and roll")
+    $provisionedActivities = array("specs", "drugs", "rock and roll");
 
         foreach($provisionedActivities as $drugs) {
-            print "<p>$hugs</p>";
+            print "<p>$drugs</p>";
         }
     ?>
 </p>
