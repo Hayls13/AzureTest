@@ -35,6 +35,11 @@
         }
    $provisionedActivities[1]="hugs";
 
+    foreach($provisionedActivities as $drugs) {
+        print "<p>$drugs</p>";
+    }
+
+
     unset($provisionedActivities[2]);
 
     foreach($provisionedActivities as $drugs) {
