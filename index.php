@@ -33,6 +33,12 @@
         foreach($provisionedActivities as $drugs) {
             print "<p>$drugs</p>";
         }
+   $provisionedActivities[1]="hugs";
+
+    foreach($provisionedActivities as $drugs) {
+        print "<p>$drugs</p>";
+    }
+
     ?>
 </p>
 
