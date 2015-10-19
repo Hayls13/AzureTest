@@ -30,8 +30,8 @@
             }*/
     $provisionedActivities = array("specs", "drugs", "rock and roll")
 
-        foreach($provisionedActivities as $x) {
-            print "<p>$x</p>";
+        foreach($provisionedActivities as $drugs) {
+            print "<p>$hugs</p>";
         }
     ?>
 </p>
