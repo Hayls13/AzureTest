@@ -15,7 +15,7 @@
 
     else {
         print "Who are you";
-    }*/
+    }
 
     $object = "specs";
 
@@ -27,7 +27,12 @@
         }
             else {
                 print "you must be 16 to buy specs";
-            }
+            }*/
+    $provisionedActivities = array("specs", "drugs", "rock and roll")
+
+        foreach($provisionedActivities as $x) {
+            print "<p>$x</p>";
+        }
     ?>
 </p>
 
