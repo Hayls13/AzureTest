@@ -7,7 +7,15 @@
 <body>
 <p>
     <?php
-    print "Hello World";
+    $name = "Edgar";
+
+    if ($name =="Simon"){
+        print "I know you";
+    }
+
+    else {
+        print "Who are you";
+    }
     ?>
 </p>
 
