@@ -7,7 +7,7 @@ $password = "pass";
       echo "logged in";
       //setcookie('access_level', 'standarduser');
      // setcookie('$username', "hayley");
-      $_SESSION['access_level'] = "standard user";
+      $_SESSION['access_level'] = "standarduser";
       $_SESSION['username'] = $username;
 
   } else{
