@@ -5,13 +5,16 @@ $password = "pass";
 
   if ($_POST["username"] = $username AND $_POST["password"] = $password){
       echo "logged in";
-      setcookie('access_level', 'standarduser');
-      setcookie('$username', "hayley");
+      //setcookie('access_level', 'standarduser');
+     // setcookie('$username', "hayley");
+      $_SESSION['access_level'] = "standard user";
+      $_SESSION['username'] = $username;
+
   } else{
       echo"nope";
   }
 
-$accessLevel = $_COOKIE[access_level];
+$accessLevel = /*$_COOKIE[access_level];*/ $_SESSION['access_level'];
 
 displayAccessLevelInformation($accessLevel);
 
