@@ -11,7 +11,7 @@ $password = "pass";
       echo"nope";
   }
 
-$accessLevel = $_POST[access_level];
+$accessLevel = $_COOKIE[access_level];
 
 displayAccessLevelInformation($accessLevel);
 
