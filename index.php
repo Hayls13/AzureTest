@@ -46,7 +46,7 @@
         print "<p>$drugs</p>";
     }*/
 
-    $myarray = array("specs", "mugs", "sausage rolls");
+    /*$myarray = array("specs", "mugs", "sausage rolls");
     for ($i = 1; $i <30; $i++){
         $na = array();
             if($i %2 ==0){
