@@ -10,7 +10,7 @@ $db = new mysqli(
 if($db->connect_errno){
     die('Connectfailed['.$db->connect-error.']');
 }
-echo "<p> Connection sucessful</p>";
+else echo "<p> Connection sucessful</p>";
 
 $sql_query = "SELECT * FROM articletext WHERE topicID='1'";
 $result = $db->query($sql_query);
