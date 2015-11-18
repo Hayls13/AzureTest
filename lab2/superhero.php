@@ -4,5 +4,7 @@ $lname = $_POST["surname"];
 $dob = $_POST["birthdate"];
 $sex = $_POST["gender"];
 
-echo $fname . $lname;
+echo "Name: ";$fname . $lname;
+echo "Date of birth: ";$dob;
+echo "Gender: ";$sex;
 ?>
