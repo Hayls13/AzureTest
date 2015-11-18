@@ -12,7 +12,7 @@ if($db->connect_errno){
 }
 else echo "<p> Connection sucessful</p>";
 
-$sql_query = "SELECT * FROM articletext WHERE topicID='1'";
+$sql_query = "SELECT * FROM articletext";
 $result = $db->query($sql_query);
 while($row = $result->fetch_array()){
     echo "<p>" . $row['topidID'] . "</p>";
