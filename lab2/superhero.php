@@ -6,7 +6,7 @@ $lname = $_POST["surname"];
 $dob = $_POST["birthdate"];
 $sex = $_POST["gender"];
 
-echo "Name: " . $fname . $lname  . "Date of birth: " . $dob;
+echo "Name: " . $fname . $lname  . PHP_EOL . "Date of birth: " . $dob;
 echo $sex;
 ?>
 </html>
