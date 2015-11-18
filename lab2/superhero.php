@@ -12,7 +12,7 @@ $power4 = $_POST["power4"];
 
 
 
-echo "Name: " . $fname . " " . $lname  . PHP_EOL . " Date of birth: " . $dob . " Sex: " . $sex . " Powers: " . $power1 . " " . $power2 . " " . $power3 . " " . $power4;
+echo "Name: " . $fname . ", " . $lname  . PHP_EOL . " Date of birth: " . $dob . ", Sex: " . $sex . ", Powers: " . $power1 . ", " . $power2 . ", " . $power3 . ", " . $power4;
 
 ?>
 </html>
