@@ -11,4 +11,6 @@ if($db->connect_errno){
     die('Connectfailed'['.$db->connect-error.']);
 }
 
+$sql_query = "SELECT * FROM superheros WHERE superpower LIKE '%laser%'";
+
 ?>
