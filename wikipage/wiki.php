@@ -15,8 +15,12 @@ else echo "<p> Connection sucessful</p>";
 $sql_query = "SELECT * FROM articletext";
 $result = $db->query($sql_query);
 while($row = $result->fetch_array()){
-    echo "<p>" . $row['topidID'] . "</p>";
+    echo "<p>" . $row['text'] . "</p>";
 }
+
+
+$result->close();
+$db->close();
 
 
 ?>
